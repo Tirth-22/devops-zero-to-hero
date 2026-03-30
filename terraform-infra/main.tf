@@ -14,6 +14,6 @@ resource "aws_instance" "app_server" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "Terraform_Demo"
+    Name = "Terraform_Demo-1"
   }
 }
